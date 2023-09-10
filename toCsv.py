@@ -58,7 +58,7 @@ def extract_comments(url):
     return comments;
 
 
-url = "https://www.digikala.com/search/category-mobile-phone/product-list/";
+url = "https://www.digikala.com/search/category-book/";
 product_links = get_product_links(url);
 
 allComments = [];
